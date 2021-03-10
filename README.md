@@ -1,8 +1,8 @@
 # GitHub
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=kasparjohannesschneider&show_icons=true&theme=tokyonight&count_private=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kasparjohannesschneider&layout=compact&theme=tokyonight&count_private=true&langs_count=10)
 
-
-# About Me
-
+<!-- # About Me -->
 
 
 
