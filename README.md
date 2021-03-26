@@ -5,6 +5,8 @@
 
 ![Kaspar Johannes's Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kasparjohannesschneider&layout=compact&theme=tokyonight&count_private=true&langs_count=10)
 
+![Kaspar Johannes's trophies](https://github-profile-trophy.vercel.app/?username=kasparjohannesschneider&theme=nord)
+
 
 <!-- # About Me -->
 
