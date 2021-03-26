@@ -1,15 +1,16 @@
-# GitHub
 ![Metrics](https://raw.githubusercontent.com/KasparJohannesSchneider/KasparJohannesSchneider/main/github-metrics.svg)
 
 ![Kaspar Johannes's trophies](https://github-profile-trophy.vercel.app/?username=kasparjohannesschneider&theme=nord)
 
-![Kaspar Johannes' GitHub stats](https://github-readme-stats.vercel.app/api?username=kasparjohannesschneider&show_icons=true&theme=tokyonight&count_private=true)
-
 ![Kaspar Johannes's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=KasparJohannes&layout=compact&theme=tokyonight)
+
+<!--
+
+![Kaspar Johannes' GitHub stats](https://github-readme-stats.vercel.app/api?username=kasparjohannesschneider&show_icons=true&theme=tokyonight&count_private=true)
 
 ![Kaspar Johannes's Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kasparjohannesschneider&layout=compact&theme=tokyonight&count_private=true&langs_count=10)
 
-
+-->
 
 <!-- # About Me -->
 
