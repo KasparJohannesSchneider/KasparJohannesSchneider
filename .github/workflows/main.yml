@@ -14,10 +14,10 @@ jobs:
         with:
           plugin_lines: yes   
           plugin_wakatime: yes
-          plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}      # Required
-          plugin_wakatime_days: 90                                  
-          plugin_wakatime_sections: time, projects, projects-graphs # Display time and projects sections, along with projects graphs
-          plugin_wakatime_limit: 6                                  # Show 4 entries per graph
+          plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}      
+          plugin_wakatime_days: 365                                  
+          plugin_wakatime_sections: time, languates, languages-graphs, editors, editors-graph, os, os-graph
+          plugin_wakatime_limit: 6                                 
           plugin_languages: yes
           plugin_achievements: yes
           plugin_achievements_secrets: yes 
