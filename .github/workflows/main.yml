@@ -20,7 +20,7 @@ jobs:
           plugin_stackoverflow_user: 3760108                           
           plugin_stackoverflow_sections: answers-top, questions-top 
           plugin_stackoverflow_limit: 3                               
-          plugin_stackoverflow_lines: 0   
+          plugin_stackoverflow_lines: 3   
           
           # WakaTime plugin
           plugin_wakatime: yes
