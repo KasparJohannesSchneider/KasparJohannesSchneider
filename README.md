@@ -1,10 +1,10 @@
 ![Metrics](https://raw.githubusercontent.com/KasparJohannesSchneider/KasparJohannesSchneider/main/github-metrics.svg)
 
+
+<!--
 ![Kaspar Johannes's trophies](https://github-profile-trophy.vercel.app/?username=kasparjohannesschneider&theme=nord)
 
 ![Kaspar Johannes's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=KasparJohannes&layout=compact&theme=tokyonight)
-
-<!--
 
 ![Kaspar Johannes' GitHub stats](https://github-readme-stats.vercel.app/api?username=kasparjohannesschneider&show_icons=true&theme=tokyonight&count_private=true)
 
