@@ -12,7 +12,12 @@ jobs:
       # See action.yml for all options
       - uses: lowlighter/metrics@latest
         with:
-          plugin_lines: yes
+          plugin_lines: yes   
+          plugin_wakatime: yes
+          plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}      # Required
+          plugin_wakatime_days: 90                                  
+          plugin_wakatime_sections: time, projects, projects-graphs # Display time and projects sections, along with projects graphs
+          plugin_wakatime_limit: 6                                  # Show 4 entries per graph
           plugin_languages: yes
           plugin_achievements: yes
           plugin_achievements_secrets: yes 
