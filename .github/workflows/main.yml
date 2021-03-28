@@ -18,7 +18,7 @@ jobs:
           # Stack Overflow plugin
           plugin_stackoverflow: yes
           plugin_stackoverflow_user: 3760108                           
-          plugin_stackoverflow_sections: answers-top, questions-top 
+          plugin_stackoverflow_sections: questions-top, answers-top
           plugin_stackoverflow_limit: 3                               
           plugin_stackoverflow_lines: 2   
           
