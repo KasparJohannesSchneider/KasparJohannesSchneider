@@ -2,7 +2,8 @@
 // GitHub metrics SVG
 image::https://raw.githubusercontent.com/KasparJohannesSchneider/KasparJohannesSchneider/main/github-metrics.svg[GitHub metrics for Kaspar Johannes Schneider]
 
-//// Unused cards
+//  Unused cards
+////
 ![Kaspar Johannes's trophies](https://github-profile-trophy.vercel.app/?username=kasparjohannesschneider&theme=nord)
 
 ![Kaspar Johannes's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=KasparJohannes&layout=compact&theme=tokyonight)
