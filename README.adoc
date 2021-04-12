@@ -1,4 +1,7 @@
 
+// GitHub Action Metrics Workflow status badge
+image::https://github.com/KasparJohannesSchneider/KasparJohannesSchneider/actions/workflows/main.yml/badge.svg[GitHub Action Metrics Workflow status badge]
+
 // GitHub metrics SVG
 image::https://raw.githubusercontent.com/KasparJohannesSchneider/KasparJohannesSchneider/main/github-metrics.svg[GitHub metrics for Kaspar Johannes Schneider]
 
