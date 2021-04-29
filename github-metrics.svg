@@ -3221,7 +3221,7 @@ Unfortunately, I still have no solution to get the length of multiple `BITs` arr
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="11.345856090246066 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="11.349287444032221 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g xmlns="http://www.w3.org/2000/svg" transform="translate(5 4)" fill="none" fill-rule="evenodd">
@@ -3768,7 +3768,7 @@ Unfortunately, I still have no solution to get the length of multiple `BITs` arr
                     These metrics do not include all private contributions
                 </span>
                 <span>
-                    Last updated Thu, 29 Apr 2021 03:05:36 GMT with lowlighter/metrics@3.7.0
+                    Last updated Thu, 29 Apr 2021 04:03:57 GMT with lowlighter/metrics@3.7.0
                 </span>
             </footer>
             <div id="metrics-end"></div>
