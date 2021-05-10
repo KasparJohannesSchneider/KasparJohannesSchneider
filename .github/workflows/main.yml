@@ -25,7 +25,7 @@ jobs:
           # WakaTime plugin
           plugin_wakatime: yes
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}      
-          plugin_wakatime_days: 365                                  
+          plugin_wakatime_days: 14                                  
           plugin_wakatime_sections: time, languates, languages-graphs, editors, editors-graph, os, os-graph
           plugin_wakatime_limit: 4   
           
