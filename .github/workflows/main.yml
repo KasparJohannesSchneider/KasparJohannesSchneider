@@ -29,9 +29,9 @@ jobs:
           plugin_wakatime_sections: time, languates, languages-graphs, editors, editors-graph, os, os-graph
           plugin_wakatime_limit: 4  
           
-          # Notable contributions
-          plugin_notable: yes
-          plugin_notable_repositories: yes 
+          # Notable contributions <- Not yet useful for me...
+          # plugin_notable: yes
+          # plugin_notable_repositories: yes 
           
           # Languages plugin
           plugin_languages: yes
