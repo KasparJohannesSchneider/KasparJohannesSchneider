@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="2610" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="2577" class="">
     <defs>
         <style/>
     </defs>
@@ -2573,7 +2573,7 @@
                     <section class="largeable-column-fields">
                         <div class="field">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path d="M8.5.75a.75.75 0 00-1.5 0v5.19L4.391 3.33a.75.75 0 10-1.06 1.061L5.939 7H.75a.75.75 0 000 1.5h5.19l-2.61 2.609a.75.75 0 101.061 1.06L7 9.561v5.189a.75.75 0 001.5 0V9.56l2.609 2.61a.75.75 0 101.06-1.061L9.561 8.5h5.189a.75.75 0 000-1.5H9.56l2.61-2.609a.75.75 0 00-1.061-1.06L8.5 5.939V.75z"/></svg>
-            459 reputation points
+            469 reputation points
           </div>
                         <div class="field">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zM6.92 6.085c.081-.16.19-.299.34-.398.145-.097.371-.187.74-.187.28 0 .553.087.738.225A.613.613 0 019 6.25c0 .177-.04.264-.077.318a.956.956 0 01-.277.245c-.076.051-.158.1-.258.161l-.007.004a7.728 7.728 0 00-.313.195 2.416 2.416 0 00-.692.661.75.75 0 001.248.832.956.956 0 01.276-.245 6.3 6.3 0 01.26-.16l.006-.004c.093-.057.204-.123.313-.195.222-.149.487-.355.692-.662.214-.32.329-.702.329-1.15 0-.76-.36-1.348-.863-1.725A2.76 2.76 0 008 4c-.631 0-1.155.16-1.572.438-.413.276-.68.638-.849.977a.75.75 0 101.342.67z"/></svg>
@@ -2940,13 +2940,13 @@ Output with try, catch
                                 <div class="entry largeable-width-half">
                                     <div class="field title">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M16 1.25v4.146a.25.25 0 01-.427.177L14.03 4.03l-3.75 3.75a.75.75 0 11-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0111.604 1h4.146a.25.25 0 01.25.25zM2.75 3.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-2.5a.75.75 0 111.5 0v2.5A1.75 1.75 0 0113.25 13H9.06l-2.573 2.573A1.457 1.457 0 014 14.543V13H2.75A1.75 1.75 0 011 11.25v-7.5C1 2.784 1.784 2 2.75 2h5.5a.75.75 0 010 1.5h-5.5z"/></svg>
-                        GitHub Action using ImageMagick: Create a PNG and commit it to the repo
+                        How to get the length of BOOL[] in SCL with RSLogix 5000
 
                       </div>
                                     <div class="infos">
                                         <div>
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
-                          github, yaml, imagemagick, github-actions, git-commit
+                          arrays, plc
                         </div>
                                         <div>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8 16A8 8 0 108 0a8 8 0 000 16zm3.78-9.72a.75.75 0 00-1.06-1.06L6.75 9.19 5.28 7.72a.75.75 0 00-1.06 1.06l2 2a.75.75 0 001.06 0l4.5-4.5z"/></svg>
@@ -2954,60 +2954,9 @@ Output with try, catch
                           </div>
                                     </div>
                                     <div class="body markdown">
-                        I figured out a solution to my problem:
-
-I forgot to checkout the repository
-
-ghostscript needed to be installed explicitly
-
-The security policy for ImageMagic needs to be edited for it to process PDFs
-
-On Ubuntu the ImageMagick command doesn’t work for 1200 dpi (900 is ok in my case), on Windows, this works just fine
-
-I found out how to commit and push files
-  name: PDF to PNG
-  on:
-push:
-  branches:
-    - kaspar
-pull_request:
-  branches:
-    - kaspar
-  jobs:
-build:
-  runs-on: ubuntu-latest
-  steps:
-    - uses: actions/checkout@v2
-    - name: Install ghostscript
-      run: sudo apt install ghostscript
-    - name: Change ImageMagick security policy
-      run: |
-        DQT='"' 
-        SRC="rights=${DQT}none${DQT} pattern=${DQT}PDF${DQT}"
-        RPL="rights=${DQT}read|write${DQT} pattern=${DQT}PDF${DQT}"
-        sudo sed -i "s/$SRC/$RPL/" /etc/ImageMagick-6/policy.xml
-    - name: Convert PDF to PNG
-      run: convert -density 900 -background white -alpha off Twenty-Seconds-Icons_cv.pdf -quality 90 Twenty-Seconds-Icons_cv.png
-    - name: Commit PNG
-      id: commit
-      run: |
-        git config --local user.email "action[bot]@github.com"
-        git config --local user.name "github-actions[bot]"
-        git add Twenty-Seconds-Icons_cv.png
-        if [-z "$(git status --porcelain)"]; then
-          echo "::set-output name=push::false"
-        else
-          git commit -m "[bot] updated Twenty-Seconds-Icons_cv.png"
-          echo "::set-output name=push::true"
-        fi
-      shell: bash
-    - name: Push Commit
-      if: steps.commit.outputs.push == 'true'
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.SECRET_TOKEN }}
-
-
+                        The answer is simply no; it is not possible to get the size of a <code>BOOL[]</code> array. 
+As @DanMašek suggested correctly, <code>BOOL[]</code> arrays are very limited. It is even recommended using <code>UDTs</code> containing members of type <code>BOOL</code> instead.
+Unfortunately, I still have no solution to get the length of multiple <code>BITs</code> arranged in some way and loop through them in a <code>for loop</code>.
 
                       </div>
                                     <div class="infos">
@@ -3021,11 +2970,11 @@ build:
                         </div>
                                         <div>
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M1.5 2.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v5.5a.25.25 0 01-.25.25h-3.5a.75.75 0 00-.53.22L3.5 11.44V9.25a.75.75 0 00-.75-.75h-1a.25.25 0 01-.25-.25v-5.5zM1.75 1A1.75 1.75 0 000 2.75v5.5C0 9.216.784 10 1.75 10H2v1.543a1.457 1.457 0 002.487 1.03L7.061 10h3.189A1.75 1.75 0 0012 8.25v-5.5A1.75 1.75 0 0010.25 1h-8.5zM14.5 4.75a.25.25 0 00-.25-.25h-.5a.75.75 0 110-1.5h.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0114.25 12H14v1.543a1.457 1.457 0 01-2.487 1.03L9.22 12.28a.75.75 0 111.06-1.06l2.22 2.22v-2.19a.75.75 0 01.75-.75h1a.25.25 0 00.25-.25v-5.5z"/></svg>
-                          1
+                          4
                         </div>
                                         <div>
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M4.75 0a.75.75 0 01.75.75V2h5V.75a.75.75 0 011.5 0V2h1.25c.966 0 1.75.784 1.75 1.75v10.5A1.75 1.75 0 0113.25 16H2.75A1.75 1.75 0 011 14.25V3.75C1 2.784 1.784 2 2.75 2H4V.75A.75.75 0 014.75 0zm0 3.5h8.5a.25.25 0 01.25.25V6h-11V3.75a.25.25 0 01.25-.25h2zm-2.25 4v6.75c0 .138.112.25.25.25h10.5a.25.25 0 00.25-.25V7.5h-11z"/></svg>
-                          13/04/2021
+                          06/05/2018
                         </div>
                                         <div>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8 16A8 8 0 108 0a8 8 0 000 16zm3.78-9.72a.75.75 0 00-1.06-1.06L6.75 9.19 5.28 7.72a.75.75 0 00-1.06 1.06l2 2a.75.75 0 001.06 0l4.5-4.5z"/></svg>
@@ -3055,7 +3004,7 @@ build:
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="11.299581652698501 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="11.30135178405631 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g xmlns="http://www.w3.org/2000/svg" transform="translate(5 4)" fill="none" fill-rule="evenodd">
@@ -3641,7 +3590,7 @@ build:
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 08/09/2021, 15:02  with lowlighter/metrics@3.13.0</span>
+                <span>Last updated 08/09/2021, 16:02  with lowlighter/metrics@3.13.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
