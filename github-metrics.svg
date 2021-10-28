@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="2565" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="2566" class="">
     <defs>
         <style/>
     </defs>
@@ -1442,7 +1442,7 @@
                     <section>
                         <h2 class="field">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"/></svg>
-          9 Repositories 
+          11 Repositories 
         </h2>
                         <div class="row">
                             <section>
@@ -1462,7 +1462,7 @@
             </div>
                                 <div class="field">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" d="M2.5 3.5c0-.133.058-.318.282-.55.227-.237.592-.484 1.1-.708C4.899 1.795 6.354 1.5 8 1.5c1.647 0 3.102.295 4.117.742.51.224.874.47 1.101.707.224.233.282.418.282.551 0 .133-.058.318-.282.55-.227.237-.592.484-1.1.708C11.101 5.205 9.646 5.5 8 5.5c-1.647 0-3.102-.295-4.117-.742-.51-.224-.874-.47-1.101-.707-.224-.233-.282-.418-.282-.551zM1 3.5c0-.626.292-1.165.7-1.59.406-.422.956-.767 1.579-1.041C4.525.32 6.195 0 8 0c1.805 0 3.475.32 4.722.869.622.274 1.172.62 1.578 1.04.408.426.7.965.7 1.591v9c0 .626-.292 1.165-.7 1.59-.406.422-.956.767-1.579 1.041C11.476 15.68 9.806 16 8 16c-1.805 0-3.475-.32-4.721-.869-.623-.274-1.173-.62-1.579-1.04-.408-.426-.7-.965-.7-1.591v-9zM2.5 8V5.724c.241.15.503.286.779.407C4.525 6.68 6.195 7 8 7c1.805 0 3.475-.32 4.722-.869.275-.121.537-.257.778-.407V8c0 .133-.058.318-.282.55-.227.237-.592.484-1.1.708C11.101 9.705 9.646 10 8 10c-1.647 0-3.102-.295-4.117-.742-.51-.224-.874-.47-1.101-.707C2.558 8.318 2.5 8.133 2.5 8zm0 2.225V12.5c0 .133.058.318.282.55.227.237.592.484 1.1.708 1.016.447 2.471.742 4.118.742 1.647 0 3.102-.295 4.117-.742.51-.224.874-.47 1.101-.707.224-.233.282-.418.282-.551v-2.275c-.241.15-.503.285-.778.406-1.247.549-2.917.869-4.722.869-1.805 0-3.475-.32-4.721-.869a6.236 6.236 0 01-.779-.406z"/></svg>
-              785 MB used
+              809 MB used
             </div>
                                 <div class="field ">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.75 1.5a.25.25 0 00-.25.25v12.5c0 .138.112.25.25.25h10.5a.25.25 0 00.25-.25V4.664a.25.25 0 00-.073-.177l-2.914-2.914a.25.25 0 00-.177-.073H2.75zM1 1.75C1 .784 1.784 0 2.75 0h7.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0113.25 16H2.75A1.75 1.75 0 011 14.25V1.75zm7 1.5a.75.75 0 01.75.75v1.5h1.5a.75.75 0 010 1.5h-1.5v1.5a.75.75 0 01-1.5 0V7h-1.5a.75.75 0 010-1.5h1.5V4A.75.75 0 018 3.25zm-3 8a.75.75 0 01.75-.75h4.5a.75.75 0 010 1.5h-4.5a.75.75 0 01-.75-.75z"/></svg>
@@ -2705,8 +2705,32 @@
                           </div>
                                     </div>
                                     <div class="body markdown">
-                        An error occurred:code.replace is not a function
-Please report this to https://github.com/markedjs/marked.
+                        Environment:
+
+OS: For developing and running the application, both Windows 10 Pro (1809) and Linux (something like Ubuntu or Debian) with OpenJDK 1.8 and Maven installed will be used.
+JDK: OpenJDK 1.8
+IDE: IntelliJ Ultimate
+Build tool Maven (multi-module project, one module uses JavaFX)
+I'd very much prefer not to use anything with a paid license (even though, for this project, I could probably use the Oracle JDK for free...).
+
+The problem:
+I know, that the JDK 1.8 is supposed to come with JavaFX included. However, for OpenJDK 1.8 this, somehow, seems not to be the case (without the Maven dependencies, IntelliJ doesn't accept <code>import javafx.application.Application;</code> nor any other JFX imports).
+For this reason, I am trying to include it as a Maven dependency. If I use:
+<code class="language-multiline">org.openjfx
+        javafx-controls
+<span class="token trimmed">(5 more lines were trimmed)</span></code>
+I get the following error message:
+<code class="language-multiline">Error:(3, 26) java: cannot access javafx.application.Application
+   bad class file: /C:/Users/kaspa/.m2/repository/org/openjfx/javafx- 
+<span class="token trimmed">(4 more lines were trimmed)</span></code>
+Using <code>12</code> yields <code>[...]wrong version 55.0, should be 52.0[...]</code>.
+The lowest <code>, inside the Maven</code>, I am able to use seems to bo 11.
+The Question:
+
+Is there something I can add/change to my <code>pom.xml</code> to make my application compile and run?
+Do I absolutely need to upgrade to OpenJDK 11 or 12?
+
+
                       </div>
                                     <div class="infos">
                                         <div>
@@ -2731,7 +2755,7 @@ Please report this to https://github.com/markedjs/marked.
                         </div>
                                         <div>
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M4.75 0a.75.75 0 01.75.75V2h5V.75a.75.75 0 011.5 0V2h1.25c.966 0 1.75.784 1.75 1.75v10.5A1.75 1.75 0 0113.25 16H2.75A1.75 1.75 0 011 14.25V3.75C1 2.784 1.784 2 2.75 2H4V.75A.75.75 0 014.75 0zm0 3.5h8.5a.25.25 0 01.25.25V6h-11V3.75a.25.25 0 01.25-.25h2zm-2.25 4v6.75c0 .138.112.25.25.25h10.5a.25.25 0 00.25-.25V7.5h-11z"/></svg>
-                          27/05/2019
+                          27 May 2019
                         </div>
                                     </div>
                                 </div>
@@ -2752,8 +2776,26 @@ Please report this to https://github.com/markedjs/marked.
                           </div>
                                     </div>
                                     <div class="body markdown">
-                        An error occurred:code.replace is not a function
-Please report this to https://github.com/markedjs/marked.
+                        Goal
+I am programming an Allen-Bradley / Rockwell CompactLogix <code>PLC</code> in <code>SCL</code>. I would like to determine the size of <code>Arrays</code> at runtime. It would be possible to enter the <code>Array</code> lengths as <code>constants</code> into the code before compiling. However, the reusability would be improved greatly if the lengths of the arrays could be determined automatically.
+Problem
+There is the function <code>SIZE(Source,Dimtovary,Size)</code> which does exactly what I need although only for <code>SINT[]</code> <code>INT[]</code> <code>DINT[]</code> <code>REAL[]</code> <code>structure</code> and <code>STRING</code>. Unfortunately I need the length of <code>BOOL[]</code>.
+"The SIZE instruction finds the number of elements (size) in the designated dimension of the Source array or string operand and places the result in the Size operand. The instruction finds the size of one dimension of an array."
+Pseudo code
+<code class="language-multiline">Int_array := INT[16];
+Bool_array := BOOL[64];
+<span class="token trimmed">(6 more lines were trimmed)</span></code>
+Environment
+
+IDE: Rockwell Studio 5000 / RSLogix 5000
+PLC: 1769-L36ERMS
+Language: SCL (Structured text)
+Reference: Programming reference manual
+
+Question
+Is there a way to determine the length of a boolean array for example <code>BOOL[64]</code>?
+Additionally, is there a fundamental reason why <code>SIZE(Source,Dimtovary,Size);</code> doesn't work with boolean arrays?
+
                       </div>
                                     <div class="infos">
                                         <div>
@@ -2778,7 +2820,7 @@ Please report this to https://github.com/markedjs/marked.
                         </div>
                                         <div>
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M4.75 0a.75.75 0 01.75.75V2h5V.75a.75.75 0 011.5 0V2h1.25c.966 0 1.75.784 1.75 1.75v10.5A1.75 1.75 0 0113.25 16H2.75A1.75 1.75 0 011 14.25V3.75C1 2.784 1.784 2 2.75 2H4V.75A.75.75 0 014.75 0zm0 3.5h8.5a.25.25 0 01.25.25V6h-11V3.75a.25.25 0 01.25-.25h2zm-2.25 4v6.75c0 .138.112.25.25.25h10.5a.25.25 0 00.25-.25V7.5h-11z"/></svg>
-                          17/04/2018
+                          17 Apr 2018
                         </div>
                                     </div>
                                 </div>
@@ -2799,8 +2841,32 @@ Please report this to https://github.com/markedjs/marked.
                           </div>
                                     </div>
                                     <div class="body markdown">
-                        An error occurred:code.replace is not a function
-Please report this to https://github.com/markedjs/marked.
+                        <b>Goal</b>
+I am trying to send data over UDP from a Java server to a Python client on the same machine.
+<b>Environment</b>
+
+Device/OS: Jetson nano with Ubuntu 18.04.3 LTS (Bionic Beaver)
+JavaC version: javac 11.0.4
+Java version:
+openjdk version "11.0.4" 2019-07-16
+OpenJDK Runtime Environment (build 11.0.4+11-post-Ubuntu-1ubuntu218.04.3)
+OpenJDK 64-Bit Server VM (build 11.0.4+11-post-Ubuntu-1ubuntu218.04.3, mixed mode)
+
+<b>Problem</b>
+I can send data from a Python test server, see code below, to the Python test client just fine. However, If I try to send data from the Java test server to the Python test client, nothing seems to arrive. The Java server doesn't throw an exception.
+<b>Test client in Python (working)</b>
+<code class="language-multiline">import socket
+
+<span class="token trimmed">(12 more lines were trimmed)</span></code>
+<b>Test server in Python (working)</b>
+<code class="language-multiline">import socket
+
+<span class="token trimmed">(2 more lines were trimmed)</span></code>
+<b>Test server in Java (not working or doesn't reach the python client)</b>
+<code class="language-multiline">import java.io.*;
+import java.net.*;
+<span class="token trimmed">(20 more lines were trimmed)</span></code>
+
                       </div>
                                     <div class="infos">
                                         <div>
@@ -2825,7 +2891,7 @@ Please report this to https://github.com/markedjs/marked.
                         </div>
                                         <div>
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M4.75 0a.75.75 0 01.75.75V2h5V.75a.75.75 0 011.5 0V2h1.25c.966 0 1.75.784 1.75 1.75v10.5A1.75 1.75 0 0113.25 16H2.75A1.75 1.75 0 011 14.25V3.75C1 2.784 1.784 2 2.75 2H4V.75A.75.75 0 014.75 0zm0 3.5h8.5a.25.25 0 01.25.25V6h-11V3.75a.25.25 0 01.25-.25h2zm-2.25 4v6.75c0 .138.112.25.25.25h10.5a.25.25 0 00.25-.25V7.5h-11z"/></svg>
-                          22/11/2019
+                          22 Nov 2019
                         </div>
                                     </div>
                                 </div>
@@ -2886,7 +2952,7 @@ I think the reason why my version works and yours does not is that there is some
                         </div>
                                         <div>
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M4.75 0a.75.75 0 01.75.75V2h5V.75a.75.75 0 011.5 0V2h1.25c.966 0 1.75.784 1.75 1.75v10.5A1.75 1.75 0 0113.25 16H2.75A1.75 1.75 0 011 14.25V3.75C1 2.784 1.784 2 2.75 2H4V.75A.75.75 0 014.75 0zm0 3.5h8.5a.25.25 0 01.25.25V6h-11V3.75a.25.25 0 01.25-.25h2zm-2.25 4v6.75c0 .138.112.25.25.25h10.5a.25.25 0 00.25-.25V7.5h-11z"/></svg>
-                          30/03/2016
+                          30 Mar 2016
                         </div>
                                     </div>
                                 </div>
@@ -2907,8 +2973,24 @@ I think the reason why my version works and yours does not is that there is some
                           </div>
                                     </div>
                                     <div class="body markdown">
-                        An error occurred:code.replace is not a function
-Please report this to https://github.com/markedjs/marked.
+                        The solution to your problem is pretty simple. Just use try, catch.
+For loop that calls function
+<code class="language-multiline">for i=1:3
+    a=randi([0 500]);
+<span class="token trimmed">(7 more lines were trimmed)</span></code>
+Function
+<code class="language-multiline">function b = myfunction(a)
+    b=a;
+<span class="token trimmed">(2 more lines were trimmed)</span></code>
+Output without try, catch
+<code class="language-multiline">Error using myfunction (line 3)
+Error!!!
+<span class="token trimmed">(3 more lines were trimmed)</span></code>
+Output with try, catch
+<code class="language-multiline">1
+
+<span class="token trimmed">(3 more lines were trimmed)</span></code>
+
                       </div>
                                     <div class="infos">
                                         <div>
@@ -2925,7 +3007,7 @@ Please report this to https://github.com/markedjs/marked.
                         </div>
                                         <div>
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M4.75 0a.75.75 0 01.75.75V2h5V.75a.75.75 0 011.5 0V2h1.25c.966 0 1.75.784 1.75 1.75v10.5A1.75 1.75 0 0113.25 16H2.75A1.75 1.75 0 011 14.25V3.75C1 2.784 1.784 2 2.75 2H4V.75A.75.75 0 014.75 0zm0 3.5h8.5a.25.25 0 01.25.25V6h-11V3.75a.25.25 0 01.25-.25h2zm-2.25 4v6.75c0 .138.112.25.25.25h10.5a.25.25 0 00.25-.25V7.5h-11z"/></svg>
-                          29/04/2016
+                          29 Apr 2016
                         </div>
                                         <div>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8 16A8 8 0 108 0a8 8 0 000 16zm3.78-9.72a.75.75 0 00-1.06-1.06L6.75 9.19 5.28 7.72a.75.75 0 00-1.06 1.06l2 2a.75.75 0 001.06 0l4.5-4.5z"/></svg>
@@ -2970,7 +3052,7 @@ Unfortunately, I still have no solution to get the length of multiple <code>BITs
                         </div>
                                         <div>
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M4.75 0a.75.75 0 01.75.75V2h5V.75a.75.75 0 011.5 0V2h1.25c.966 0 1.75.784 1.75 1.75v10.5A1.75 1.75 0 0113.25 16H2.75A1.75 1.75 0 011 14.25V3.75C1 2.784 1.784 2 2.75 2H4V.75A.75.75 0 014.75 0zm0 3.5h8.5a.25.25 0 01.25.25V6h-11V3.75a.25.25 0 01.25-.25h2zm-2.25 4v6.75c0 .138.112.25.25.25h10.5a.25.25 0 00.25-.25V7.5h-11z"/></svg>
-                          06/05/2018
+                          6 May 2018
                         </div>
                                         <div>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8 16A8 8 0 108 0a8 8 0 000 16zm3.78-9.72a.75.75 0 00-1.06-1.06L6.75 9.19 5.28 7.72a.75.75 0 00-1.06 1.06l2 2a.75.75 0 001.06 0l4.5-4.5z"/></svg>
@@ -3586,7 +3668,7 @@ Unfortunately, I still have no solution to get the length of multiple <code>BITs
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 28/10/2021, 06:03  with lowlighter/metrics@3.14.0</span>
+                <span>Last updated 28 Oct 2021, 07:02:53  with lowlighter/metrics@3.15.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
