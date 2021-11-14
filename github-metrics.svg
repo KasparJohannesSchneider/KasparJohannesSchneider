@@ -3406,7 +3406,7 @@ Unfortunately, I still have no solution to get the length of multiple <code>BITs
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="0.15515515515515516 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="0.3103103103103103 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g transform="translate(4 4)" fill="none" fill-rule="evenodd">
@@ -3431,7 +3431,7 @@ Unfortunately, I still have no solution to get the length of multiple <code>BITs
                   
                   
                 </div>
-                                <div class="text">Maintaining a repository with 2 stars</div>
+                                <div class="text">Maintaining a repository with 3 stars</div>
                             </div>
                         </div>
                         <div class="achievement secret largeable-width-half">
@@ -3638,7 +3638,7 @@ Unfortunately, I still have no solution to get the length of multiple <code>BITs
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 14 Nov 2021, 18:03:00  with lowlighter/metrics@3.15.0</span>
+                <span>Last updated 14 Nov 2021, 19:02:58  with lowlighter/metrics@3.15.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
