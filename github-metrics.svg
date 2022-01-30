@@ -2098,7 +2098,7 @@ Unfortunately, I still have no solution to get the length of multiple
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Developer
-                                    <span class="gh">ranked 3.62m out of 84m users</span>
+                                    <span class="gh">ranked 3.63m out of 84m users</span>
                                 </div>
                                 <div class="text">Published 11 public repositories</div>
                             </div>
@@ -2580,7 +2580,7 @@ Unfortunately, I still have no solution to get the length of multiple
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 30 Jan 2022, 08:03:25  with lowlighter/metrics@3.18.0</span>
+                <span>Last updated 30 Jan 2022, 09:02:53  with lowlighter/metrics@3.18.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
